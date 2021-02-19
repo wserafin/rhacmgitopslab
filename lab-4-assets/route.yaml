@@ -1,0 +1,11 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: smaple-route
+  labels:
+    name: httpd
+spec:
+  path: "/"
+  to:
+    kind: Service
+    name: httpd
