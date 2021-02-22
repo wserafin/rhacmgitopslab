@@ -4,9 +4,9 @@ metadata:
   labels:
     app: httpd
     owenr: wojciech
-  name: cluster-can-west
+  name: cluster-can-east
   namespace: simple-app
 spec:
   clusterSelector:
     matchLabels:
-      clusterid: can-west 
+      env: east 

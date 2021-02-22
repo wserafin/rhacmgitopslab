@@ -1,0 +1,8 @@
+resources:
+- 01_namespace.yaml
+- 02_channel.yaml
+- 03_application.yaml
+- 04-pl-east.yaml
+- 04-pl-west.yaml
+- 05_sub_east.yaml
+- 05_sub_west.yaml

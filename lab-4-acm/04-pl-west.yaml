@@ -9,4 +9,4 @@ metadata:
 spec:
   clusterSelector:
     matchLabels:
-      clusterid: can-west 
+      env: west 
